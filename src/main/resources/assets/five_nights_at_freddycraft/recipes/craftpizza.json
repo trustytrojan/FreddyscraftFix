@@ -1,0 +1,42 @@
+{
+  "group": "five_nights_at_freddycraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "five_nights_at_freddycraft:cheese"
+    },
+    "1": {
+      "item": "five_nights_at_freddycraft:cheese"
+    },
+    "2": {
+      "item": "five_nights_at_freddycraft:cheese"
+    },
+    "3": {
+      "item": "five_nights_at_freddycraft:tomato"
+    },
+    "4": {
+      "item": "five_nights_at_freddycraft:tomato"
+    },
+    "5": {
+      "item": "five_nights_at_freddycraft:tomato"
+    },
+    "6": {
+      "item": "minecraft:bread"
+    },
+    "7": {
+      "item": "minecraft:bread"
+    },
+    "8": {
+      "item": "minecraft:bread"
+    }
+  },
+  "result": {
+    "item": "five_nights_at_freddycraft:pizza",
+    "count": 1
+  }
+}

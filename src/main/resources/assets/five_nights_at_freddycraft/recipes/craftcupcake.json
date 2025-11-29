@@ -1,0 +1,20 @@
+{
+  "group": "five_nights_at_freddycraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:torch"
+    },
+    "1": {
+      "item": "minecraft:cake"
+    }
+  },
+  "result": {
+    "item": "five_nights_at_freddycraft:chicascupcake",
+    "count": 1
+  }
+}

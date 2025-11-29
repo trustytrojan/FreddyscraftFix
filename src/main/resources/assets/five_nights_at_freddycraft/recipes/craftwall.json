@@ -1,0 +1,51 @@
+{
+  "group": "five_nights_at_freddycraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:stained_hardened_clay",
+      "data": 9
+    },
+    "1": {
+      "item": "minecraft:stained_hardened_clay",
+      "data": 9
+    },
+    "2": {
+      "item": "minecraft:stained_hardened_clay",
+      "data": 9
+    },
+    "3": {
+      "item": "minecraft:stained_hardened_clay",
+      "data": 15
+    },
+    "4": {
+      "item": "minecraft:stained_hardened_clay",
+      "data": 0
+    },
+    "5": {
+      "item": "minecraft:stained_hardened_clay",
+      "data": 15
+    },
+    "6": {
+      "item": "minecraft:stained_hardened_clay",
+      "data": 9
+    },
+    "7": {
+      "item": "minecraft:stained_hardened_clay",
+      "data": 9
+    },
+    "8": {
+      "item": "minecraft:stained_hardened_clay",
+      "data": 9
+    }
+  },
+  "result": {
+    "item": "five_nights_at_freddycraft:fnafwall",
+    "count": 1
+  }
+}

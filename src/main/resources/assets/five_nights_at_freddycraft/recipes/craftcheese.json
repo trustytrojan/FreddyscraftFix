@@ -1,0 +1,17 @@
+{
+  "group": "five_nights_at_freddycraft",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:dye",
+      "data": 11
+    },
+    {
+      "item": "minecraft:milk_bucket"
+    }
+  ],
+  "result": {
+    "item": "five_nights_at_freddycraft:cheese",
+    "count": 3
+  }
+}

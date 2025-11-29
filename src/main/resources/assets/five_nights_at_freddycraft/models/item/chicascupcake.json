@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "five_nights_at_freddycraft:items/cupcake"
+  }
+}

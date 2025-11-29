@@ -1,0 +1,13 @@
+{
+  "group": "five_nights_at_freddycraft",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "five_nights_at_freddycraft:tomato"
+    }
+  ],
+  "result": {
+    "item": "minecraft:apple",
+    "count": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "five_nights_at_freddycraft:blocks/fnaf_wall_top",
+    "up": "five_nights_at_freddycraft:blocks/fnaf_wall_top",
+    "north": "five_nights_at_freddycraft:blocks/fnaf_wall",
+    "east": "five_nights_at_freddycraft:blocks/fnaf_wall",
+    "south": "five_nights_at_freddycraft:blocks/fnaf_wall",
+    "west": "five_nights_at_freddycraft:blocks/fnaf_wall",
+    "particle": "five_nights_at_freddycraft:blocks/fnaf_wall_top"
+  }
+}

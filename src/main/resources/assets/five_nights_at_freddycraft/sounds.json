@@ -1,0 +1,209 @@
+{
+  "entity.freddy.ambient": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "five_nights_at_freddycraft:laughfreddy",
+        "stream": false
+      }
+    ]
+  },
+  "entity.fnaf1.death": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "five_nights_at_freddycraft:fnaf1death",
+        "stream": false
+      }
+    ]
+  },
+  "entity.bonniechica.ambient": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "five_nights_at_freddycraft:bonniechicagroan",
+        "stream": false
+      }
+    ]
+  },
+  "entity.foxy.ambient": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "five_nights_at_freddycraft:foxysong",
+        "stream": false
+      }
+    ]
+  },
+  "entity.goldenfreddy.ambient": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "five_nights_at_freddycraft:goldenfreddylaugh",
+        "stream": false
+      }
+    ]
+  },
+  "entity.goldenfreddy.death": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "five_nights_at_freddycraft:goldenfreddydeath",
+        "stream": false
+      }
+    ]
+  },
+  "entity.fnaf2.death": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "five_nights_at_freddycraft:fnaf2death",
+        "stream": false
+      }
+    ]
+  },
+  "entity.mangle.ambient": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "five_nights_at_freddycraft:manglestatic",
+        "stream": false
+      }
+    ]
+  },
+  "entity.bbjj.laugh": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "five_nights_at_freddycraft:bblaugh",
+        "stream": false
+      }
+    ]
+  },
+  "entity.puppet.ambient": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "five_nights_at_freddycraft:jackinthebox",
+        "stream": false
+      }
+    ]
+  },
+  "entity.fnaf3.death": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "five_nights_at_freddycraft:fnaf3death",
+        "stream": false
+      }
+    ]
+  },
+  "entity.phantommangle.ambient": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "five_nights_at_freddycraft:phantommanglestatic",
+        "stream": false
+      }
+    ]
+  },
+  "entity.phantompuppet.ambient": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "five_nights_at_freddycraft:phantompuppetambient",
+        "stream": false
+      }
+    ]
+  },
+  "entity.fnaf4.death": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "five_nights_at_freddycraft:fnaf4death",
+        "stream": false
+      }
+    ]
+  },
+  "entity.fredbear.laugh": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "five_nights_at_freddycraft:fredbearlaugh",
+        "stream": false
+      }
+    ]
+  },
+  "entity.nightmare.death": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "five_nights_at_freddycraft:nightmaredeath",
+        "stream": false
+      }
+    ]
+  },
+  "entity.plushtrap.death": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "five_nights_at_freddycraft:plushtrapdeath",
+        "stream": false
+      }
+    ]
+  },
+  "entity.fredbear.death": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "five_nights_at_freddycraft:fredbeardeath",
+        "stream": false
+      }
+    ]
+  },
+  "entity.baby.ambient": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "five_nights_at_freddycraft:babyambient",
+        "stream": false
+      }
+    ]
+  },
+  "entity.fnafsl.death": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "five_nights_at_freddycraft:fnafsldeath",
+        "stream": false
+      }
+    ]
+  },
+  "entity.ballora.ambient": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "five_nights_at_freddycraft:balloraambient",
+        "stream": false
+      }
+    ]
+  },
+  "entity.funtimefreddy.ambient": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "five_nights_at_freddycraft:funtimefreddyambient",
+        "stream": false
+      }
+    ]
+  },
+  "entity.funtimefoxy.ambient": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "five_nights_at_freddycraft:funtimefoxyambient",
+        "stream": false
+      }
+    ]
+  }
+}
