@@ -25,6 +25,7 @@ import net.minecraft.entity.*;
 import net.minecraft.client.model.*;
 
 
+@ElementsFiveNightsAtFreddycraftMod.ModElement.Tag
 public class EntityFuntimeFreddy extends ElementsFiveNightsAtFreddycraftMod.ModElement
 {
     public static final int ENTITYID = 105;

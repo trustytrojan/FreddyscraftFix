@@ -25,6 +25,7 @@ import net.minecraft.entity.*;
 import net.minecraft.client.model.*;
 
 
+@ElementsFiveNightsAtFreddycraftMod.ModElement.Tag
 public class EntityEndoskeleton extends ElementsFiveNightsAtFreddycraftMod.ModElement
 {
     public static final int ENTITYID = 11;

@@ -27,6 +27,7 @@ import net.minecraft.entity.*;
 import net.minecraft.client.model.*;
 
 
+@ElementsFiveNightsAtFreddycraftMod.ModElement.Tag
 public class EntityFoxyThePirateFox extends ElementsFiveNightsAtFreddycraftMod.ModElement
 {
     public static final int ENTITYID = 7;
