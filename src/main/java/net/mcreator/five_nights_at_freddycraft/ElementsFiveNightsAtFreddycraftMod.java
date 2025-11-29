@@ -29,7 +29,7 @@ import net.minecraftforge.fml.common.event.*;
 import net.minecraftforge.client.event.*;
 import java.lang.annotation.*;
 
-public class ElementsFiveNightsAtFreddycraftMod implements IWorldGenerator
+public class ElementsFiveNightsAtFreddycraftMod implements IFuelHandler, IWorldGenerator
 {
     public final List<ModElement> elements;
     public final List<Supplier<Block>> blocks;
