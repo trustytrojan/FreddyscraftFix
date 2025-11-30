@@ -1,5 +1,5 @@
 # FreddyscraftFix
-Decompilation of the [Five Nights at Freddyscraft](https://www.curseforge.com/minecraft/mc-mods/five-nights-at-freddyscraft) mod to add configurable spawn weights for the mobs.
+Decompilation of the [Five Nights at Freddyscraft](https://www.curseforge.com/minecraft/mc-mods/five-nights-at-freddyscraft) mod to add configurable spawn weights & group sizes for the mobs.
 
 ## Credit & Copyright Notice
 All credit for the original mod (code, assets) goes to [greenphx9](https://www.curseforge.com/members/greenphx9).
