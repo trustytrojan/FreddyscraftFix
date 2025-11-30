@@ -1,3 +1,6 @@
+# ARCHIVAL NOTICE
+I don't need this anymore now that I have [spawn-tweaker](https://github.com/trustytrojan/spawn-tweaker).
+
 # FreddyscraftFix
 Decompilation of the [Five Nights at Freddyscraft](https://www.curseforge.com/minecraft/mc-mods/five-nights-at-freddyscraft) mod to add configurable spawn weights & group sizes for the mobs.
 
