@@ -43,7 +43,7 @@ public class EntitySpringtrap extends ElementsFiveNightsAtFreddycraftMod.ModElem
     @Override
     public void init(final FMLInitializationEvent event) {
         final Biome[] spawnBiomes = this.allbiomes((RegistryNamespaced<ResourceLocation, Biome>)Biome.REGISTRY);
-        EntityRegistry.addSpawn(EntityCustom.class, ModConfig.spawnWeights.Springtrap, 3, 30, EnumCreatureType.MONSTER, spawnBiomes);
+        EntityRegistry.addSpawn(EntityCustom.class, ModConfig.Springtrap.weight, ModConfig.Springtrap.minGroupSize, ModConfig.Springtrap.maxGroupSize, EnumCreatureType.MONSTER, spawnBiomes);
     }
     
     private Biome[] allbiomes(final RegistryNamespaced<ResourceLocation, Biome> in) {

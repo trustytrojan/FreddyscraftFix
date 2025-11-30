@@ -45,7 +45,7 @@ public class EntityWitheredFoxy extends ElementsFiveNightsAtFreddycraftMod.ModEl
     @Override
     public void init(final FMLInitializationEvent event) {
         final Biome[] spawnBiomes = this.allbiomes((RegistryNamespaced<ResourceLocation, Biome>)Biome.REGISTRY);
-        EntityRegistry.addSpawn(EntityCustom.class, ModConfig.spawnWeights.WitheredFoxy, 3, 30, EnumCreatureType.MONSTER, spawnBiomes);
+        EntityRegistry.addSpawn(EntityCustom.class, ModConfig.WitheredFoxy.weight, ModConfig.WitheredFoxy.minGroupSize, ModConfig.WitheredFoxy.maxGroupSize, EnumCreatureType.MONSTER, spawnBiomes);
     }
     
     private Biome[] allbiomes(final RegistryNamespaced<ResourceLocation, Biome> in) {

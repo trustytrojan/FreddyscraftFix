@@ -43,7 +43,7 @@ public class EntityPhantomMangle extends ElementsFiveNightsAtFreddycraftMod.ModE
     @Override
     public void init(final FMLInitializationEvent event) {
         final Biome[] spawnBiomes = this.allbiomes((RegistryNamespaced<ResourceLocation, Biome>)Biome.REGISTRY);
-        EntityRegistry.addSpawn(EntityCustom.class, ModConfig.spawnWeights.PhantomMangle, 3, 30, EnumCreatureType.MONSTER, spawnBiomes);
+        EntityRegistry.addSpawn(EntityCustom.class, ModConfig.PhantomMangle.weight, ModConfig.PhantomMangle.minGroupSize, ModConfig.PhantomMangle.maxGroupSize, EnumCreatureType.MONSTER, spawnBiomes);
     }
     
     private Biome[] allbiomes(final RegistryNamespaced<ResourceLocation, Biome> in) {

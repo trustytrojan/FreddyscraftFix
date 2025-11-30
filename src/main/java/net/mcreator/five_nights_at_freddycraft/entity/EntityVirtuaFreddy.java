@@ -43,7 +43,7 @@ public class EntityVirtuaFreddy extends ElementsFiveNightsAtFreddycraftMod.ModEl
     @Override
     public void init(final FMLInitializationEvent event) {
         final Biome[] spawnBiomes = this.allbiomes((RegistryNamespaced<ResourceLocation, Biome>)Biome.REGISTRY);
-        EntityRegistry.addSpawn(EntityCustom.class, ModConfig.spawnWeights.VirtuaFreddy, 3, 30, EnumCreatureType.MONSTER, spawnBiomes);
+        EntityRegistry.addSpawn(EntityCustom.class, ModConfig.VirtuaFreddy.weight, ModConfig.VirtuaFreddy.minGroupSize, ModConfig.VirtuaFreddy.maxGroupSize, EnumCreatureType.MONSTER, spawnBiomes);
     }
     
     private Biome[] allbiomes(final RegistryNamespaced<ResourceLocation, Biome> in) {

@@ -45,7 +45,7 @@ public class EntityBonnieTheBunny extends ElementsFiveNightsAtFreddycraftMod.Mod
     @Override
     public void init(final FMLInitializationEvent event) {
         final Biome[] spawnBiomes = this.allbiomes((RegistryNamespaced<ResourceLocation, Biome>)Biome.REGISTRY);
-        EntityRegistry.addSpawn(EntityCustom.class, ModConfig.spawnWeights.BonnieTheBunny, 3, 30, EnumCreatureType.MONSTER, spawnBiomes);
+        EntityRegistry.addSpawn(EntityCustom.class, ModConfig.BonnieTheBunny.weight, ModConfig.BonnieTheBunny.minGroupSize, ModConfig.BonnieTheBunny.maxGroupSize, EnumCreatureType.MONSTER, spawnBiomes);
     }
     
     private Biome[] allbiomes(final RegistryNamespaced<ResourceLocation, Biome> in) {

@@ -45,7 +45,7 @@ public class EntityGoldenFreddy extends ElementsFiveNightsAtFreddycraftMod.ModEl
     @Override
     public void init(final FMLInitializationEvent event) {
         final Biome[] spawnBiomes = this.allbiomes((RegistryNamespaced<ResourceLocation, Biome>)Biome.REGISTRY);
-        EntityRegistry.addSpawn(EntityCustom.class, ModConfig.spawnWeights.GoldenFreddy, 1, 2, EnumCreatureType.MONSTER, spawnBiomes);
+        EntityRegistry.addSpawn(EntityCustom.class, ModConfig.GoldenFreddy.weight, ModConfig.GoldenFreddy.minGroupSize, ModConfig.GoldenFreddy.maxGroupSize, EnumCreatureType.MONSTER, spawnBiomes);
     }
     
     private Biome[] allbiomes(final RegistryNamespaced<ResourceLocation, Biome> in) {

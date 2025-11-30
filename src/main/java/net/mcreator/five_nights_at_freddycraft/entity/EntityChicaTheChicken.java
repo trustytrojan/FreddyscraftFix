@@ -45,7 +45,7 @@ public class EntityChicaTheChicken extends ElementsFiveNightsAtFreddycraftMod.Mo
     @Override
     public void init(final FMLInitializationEvent event) {
         final Biome[] spawnBiomes = this.allbiomes((RegistryNamespaced<ResourceLocation, Biome>)Biome.REGISTRY);
-        EntityRegistry.addSpawn(EntityCustom.class, ModConfig.spawnWeights.ChicaTheChicken, 3, 30, EnumCreatureType.MONSTER, spawnBiomes);
+        EntityRegistry.addSpawn(EntityCustom.class, ModConfig.ChicaTheChicken.weight, ModConfig.ChicaTheChicken.minGroupSize, ModConfig.ChicaTheChicken.maxGroupSize, EnumCreatureType.MONSTER, spawnBiomes);
     }
     
     private Biome[] allbiomes(final RegistryNamespaced<ResourceLocation, Biome> in) {
